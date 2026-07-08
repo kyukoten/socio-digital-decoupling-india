@@ -7,6 +7,18 @@
 
 A comprehensive data engineering and machine learning pipeline that investigates the **Socio-Digital Decoupling hypothesis**: *Is a student's success with Generative AI truly determined by their skill, or is it secretly capped by the physical quality of the 5G/4G infrastructure in their region?* By merging subjective human survey data with live government telecom API data, this project mathematically proves that regional internet infrastructure acts as a primary bottleneck for AI-driven academic success in India.
 
+---
+
+## 📊 The Policy Simulator Dashboard
+
+**👉 [Try the Live Policy Simulator Here](https://india-ai-auditor.streamlit.app/)**
+
+*An interactive web application built with Streamlit and Plotly allowing policymakers to simulate infrastructure upgrades and predict real-time student grade improvements.*
+
+![Dashboard Preview](assets/dashboard_preview.png)
+
+---
+
 ## ✨ Features
 
 - **Interactive Policy Simulator**: A real-time Streamlit dashboard allowing policymakers to simulate infrastructure upgrades and view predicted academic impacts.
@@ -34,10 +46,11 @@ A comprehensive data engineering and machine learning pipeline that investigates
 
 ## 📁 Project Structure
 
+```text
 socio-digital-decoupling-india/
 |-- assets/                          
 |   |-- dashboard_preview.png
-|   |-- shap_causal_inference.jpg
+|   |-- shap_causal_inference.png
 |   |-- geospatial_map.png
 |   |-- state_report_card.png
 |   |-- device_bottleneck_eda.png
@@ -61,6 +74,7 @@ socio-digital-decoupling-india/
 |-- LICENSE                          
 |-- README.md                        
 |-- requirements.txt                 
+```
 
 ## 🚀 Quick Start
 
@@ -70,15 +84,20 @@ Before you begin, ensure you have installed:
 - **pip** (Python package installer)
 
 ### 1. Clone the Repository
-git clone https://github.com/YOUR_USERNAME/socio-digital-decoupling-india.git
+```bash
+git clone [https://github.com/YOUR_USERNAME/socio-digital-decoupling-india.git](https://github.com/YOUR_USERNAME/socio-digital-decoupling-india.git)
 cd socio-digital-decoupling-india
+```
 
 ### 2. Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### 3. Run the Dashboard
+```bash
 streamlit run app.py
-
+```
 *(Note: To run the `data_harvester.py` script from scratch, you must insert your own active API key from data.gov.in).*
 
 ## 🧠 Key Algorithms & Methodology
