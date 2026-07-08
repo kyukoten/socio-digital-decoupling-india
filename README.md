@@ -1,7 +1,7 @@
 # 🇮🇳 Socio-Digital Decoupling: AI Education Auditor
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://india-ai-auditor.streamlit.app/)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live_App-FF4B4B?logo=streamlit&logoColor=white)](https://india-ai-auditor.streamlit.app/)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Random%20Forest%20%7C%20K--Means-green)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
@@ -104,7 +104,7 @@ An interactive map grouping states into Telecom Circles to visualize the physica
 ### 3. Causal Inference via SHAP
 A **Random Forest Regressor** was trained to predict a student's academic impact. **SHAP** was applied to mathematically prove directionality—demonstrating that upgrading a region's 5G speed directly and positively manipulates academic outcomes.
 
-![SHAP Analysis](assets/shap_causal_inference.jpg)
+![SHAP Analysis](assets/shap_causal_inference.png)
 
 ### 4. Unsupervised Clustering (Socio-Digital Archetypes)
 A K-Means Clustering algorithm successfully segmented the student population into three distinct archetypes based on infrastructure speed and daily AI usage:
