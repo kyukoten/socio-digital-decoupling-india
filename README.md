@@ -1,7 +1,7 @@
 # 🇮🇳 Socio-Digital Decoupling: AI Education Auditor
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://india-ai-auditor.streamlit.app/)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Random%20Forest%20%7C%20K--Means-green)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
@@ -85,7 +85,7 @@ streamlit run app.py
 
 ### 1. The Architecture (Multimodal Data Fusion)
 This project avoids static datasets by engineering a custom ETL pipeline:
-1. **The Human Layer:** Survey data of 3,600+ Indian students detailing their AI usage hours and subjective grade impact.
+1. **The Human Layer (`Students.csv`):** Survey data of 3,600+ Indian students detailing their AI usage hours, device preferences, and subjective grade impact. *(Raw dataset available on [Kaggle](https://www.kaggle.com/datasets/rakeshkapilavai/ai-tool-usage-by-indian-college-students-2025)).*
 2. **The Physical Layer:** Extracting 24,000+ real-time telecom performance records (Mbps speeds).
 3. **The Bridge:** Dynamically joining subjective state locations to official Telecom LSA benchmarks and calculating an `Infrastructure_Efficiency` score.
 
